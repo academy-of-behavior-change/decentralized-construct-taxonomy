@@ -1,0 +1,44 @@
+---
+title: 'Distributed Construct Taxonomies: subtitle'
+author: "Gjalt-Jorn Ygram Peters, Rik Crutzen, Sylvia Roozen, Gerjo Kok"
+date: "`r format(Sys.time(), '%H:%M:%S on %Y-%m-%d %Z (GMT%z)')`"
+output: html_document
+---
+
+Psychology struggles with a number of 
+
+
+A DCT file is a YAML file of the following form:
+
+
+
+```
+---
+id: intention_xl678lqgr
+name: Intention
+source:
+  name: Reasoned Action Approach
+  xdoi: ISBN
+  spec: p. 888
+def:
+  def: Intention Def
+  source:
+    spec: pp. 8-1
+measure:
+  instruction: Ask about intention
+manipulate:
+  instruction: Instruction for manipulating intention directly.
+  source:
+operationalisation_coding: 
+  instruction: If asked about intentions/plans/etc
+  source: none
+aspect_coding:
+  instruction: Expressions of planning/intention/goals
+  source: none
+parent:
+  id: behavior
+alters:
+  id: motivation
+---
+```
+
