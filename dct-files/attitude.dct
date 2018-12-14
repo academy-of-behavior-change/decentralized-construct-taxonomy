@@ -1,0 +1,33 @@
+---
+id: attitude_71vqm37n
+label: Attitude
+date: 2018-12-13
+source:
+  label: Reasoned Action Approach
+  xdoi: ISBN
+def:
+  def: A latent definition or tendency to respond with some degree of favorableness or unfavorableness to a psychological object.
+  source:
+    spec: p. 76
+measure_dev:
+  instr: Use semantic differentials with root "For me, [TARGET BEHAVIOR] is ..." and a bidimensional scale where the right-most anchor expresses a good, pleasant, beneficial, or interesting evaluation and the left-most anchor expresses the opposite bad/unpleasant/harmful/boring evaluation. The dimensions that are measured can differ depending on whatever is most relevant for the target behavior (e.g. dimensions such as unfavourable-favourable could also be used).
+  source:
+    spec: p. 461
+manipulate_dev:
+  instr:
+  source:
+measure_code: 
+  instr: Questionnaires that measure beneficial or pleasant aspects of the latent disposition or tendency to respond favourably versus unfavourably to [target behavior], for example using the semantic differentials good/bad, pleasant/unpleasant, wise/unwise.
+  source: none
+manipulate_code:
+  instr:
+  source:
+aspect_code:
+  instruction: Any global evaluation of the target behavior as a whole. Note that evaluations of specific aspects or consequences of the behavior relate to aspects of underlying constructs, not of attitude itself.
+parent:
+  id: intention_71vr5q3q
+alters:
+  id: 
+---
+
+

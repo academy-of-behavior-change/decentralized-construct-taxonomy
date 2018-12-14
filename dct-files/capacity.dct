@@ -1,0 +1,31 @@
+---
+id: capacity_id
+label: Capacity
+date: 2018-12-13
+source:
+  label: Reasoned Action Approach
+  xdoi: ISBN
+def:
+  def: Somebody’s perceived skills and capability to perform the target behavior.
+  source:
+    spec: 
+measure_dev:
+  instr: 
+  source:
+    spec: p. 
+manipulate_dev:
+  instr:
+  source:
+measure_code: 
+  instr: 
+  source: none
+manipulate_code:
+  instr:
+  source:
+aspect_code:
+  instruction: 
+parent:
+  id: [insert intention id]
+alters:
+  id: 
+---

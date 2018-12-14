@@ -1,0 +1,25 @@
+---
+id: autonomy_id
+label: Autonomy
+date: 2018-12-13
+source:
+  label: Reasoned Action Approach
+  xdoi: ISBN
+def:
+  Def: Somebody's perception of the degree of control they have over performing the target behavior, where control can diminish as a consequence of perceived lack of resources, perceived obstacles, perceived environmental barriers or perceived coercion.
+  source:
+    spec: 
+measure_dev:
+  instr: 
+  source:
+    spec: p. 
+measure_code: 
+  instr: 
+  source: none
+aspect_code:
+  instruction: 
+parent:
+  id: [insert intention id]
+alters:
+  id: 
+---

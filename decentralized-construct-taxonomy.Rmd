@@ -1,0 +1,42 @@
+---
+title: 'The Reasoned Action Approach represented as a Decentralized Construct Taxonomy (DCT)'
+author: "Gjalt-Jorn Ygram Peters, Rik Crutzen, Sylvia Roozen, Gerjo Kok"
+date: "`r format(Sys.time(), '%H:%M:%S on %Y-%m-%d %Z (GMT%z)')`"
+output: html_document
+---
+
+```{r setup}
+
+devtools::install_github('academy-of-behavior-change/dct');
+devtools::install_github('matherion/ufs');
+
+require('dct');
+require('ufs');
+ufs::safeRequire('here');
+
+dctPath <- here::here('dct-files');
+
+```
+
+
+```{r read-dct}
+
+dct <- dct::process_dir(dctPath);
+
+```
+
+
+```{r show-dct}
+
+print(dct);
+
+plot(dct);
+
+DiagrammeR::render_graph(dct$output$completeness_graph);
+
+dct$intermediate$nodes$completeness
+
+cat(dct$intermediate$nodes$fullInstructions)
+
+```
+

@@ -1,0 +1,25 @@
+---
+id: attitude_experiential_xl678lqgn
+label: Experiential Attitude
+date: 2018-11-28
+source:
+  label: Reasoned Action Approach
+  id: ISBN
+def:
+  def: Exp Att Def
+  id: pp. 15-16
+measure_dev:
+  instr: Use semantic differentials with root "For me, [TARGET BEHAVIOR] is ..." and a bidimensional scale where the right-most anchor expresses a pleasant affective state and the left-most anchor expresses the opposite unpleasant affective state (e.g. "unpleasant" versus "pleasant").
+manipulate_dev:
+  instr: hit one group of people with a stick and do nothing with the other group
+measure_code: 
+  instr: Operationalisations that measure affective aspects of the latent disposition or tendency to respond favourably versus unfavourably to [target behavior], for example using the semantic differentials pleasant/unpleasant, fun/boring.
+  source: none
+aspect_code:
+  instruction: Expressions of feelings, emotions, or affective associations that one perceives to be caused by engaging in the target behavior.
+  source: none
+parent:
+  id: attitude_xl678lqgq
+alters:
+  id: affective_expectancies
+---
