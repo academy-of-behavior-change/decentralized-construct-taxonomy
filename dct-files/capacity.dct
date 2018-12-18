@@ -6,7 +6,7 @@ source:
   label: Reasoned Action Approach
   xdoi: ISBN
 def:
-  def: Somebody’s perceived skills and capability to perform the target behavior.
+  def: Somebody's perceived skills and capability to perform the target behavior.
   source:
     spec: 
 measure_dev:
@@ -25,7 +25,7 @@ manipulate_code:
 aspect_code:
   instruction: 
 parent:
-  id: [insert intention id]
+  id: perceivedBehavioralControl_71w8sfdk
 alters:
   id: 
 ---

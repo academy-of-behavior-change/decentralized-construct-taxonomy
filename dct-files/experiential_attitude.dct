@@ -19,7 +19,7 @@ aspect_code:
   instruction: Expressions of feelings, emotions, or affective associations that one perceives to be caused by engaging in the target behavior.
   source: none
 parent:
-  id: attitude_xl678lqgq
+  id: attitude_71vqm37n
 alters:
   id: affective_expectancies
 ---

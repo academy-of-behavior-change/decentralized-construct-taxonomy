@@ -1,0 +1,20 @@
+---
+id: no_id_yet2
+label: Descriptive norm
+date: 2018-11-28
+source:
+  label: Reasoned Action Approach
+  id: ISBN
+def:
+  def:
+measure_dev:
+  instr: 
+manipulate_dev:
+  instr: 
+measure_code: 
+  instr: 
+aspect_code:
+  instruction: 
+parent:
+  id: perceivedNorm_71w98kk2
+---

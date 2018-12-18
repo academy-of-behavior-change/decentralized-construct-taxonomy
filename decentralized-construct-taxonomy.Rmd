@@ -12,9 +12,14 @@ devtools::install_github('matherion/ufs');
 
 require('dct');
 require('ufs');
+require('knitr');
+
 ufs::safeRequire('here');
 
 dctPath <- here::here('dct-files');
+workingPath <- here::here('output');
+
+knitr::opts_chunk$set(comment="");
 
 ```
 
@@ -32,11 +37,17 @@ print(dct);
 
 plot(dct);
 
+```
+
+
+
+```{r show-dct-completeness}
+
 DiagrammeR::render_graph(dct$output$completeness_graph);
 
-dct$intermediate$nodes$completeness
-
-cat(dct$intermediate$nodes$fullInstructions)
+DiagrammeR::export_graph(dct$output$completeness_graph,
+                         file=file.path(workingPath,
+                                        "dct-completeness-graph.png"));
 
 ```
 

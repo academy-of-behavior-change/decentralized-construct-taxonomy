@@ -19,16 +19,5 @@ aspect_code:
   instr: Expressions of benefits or advantages one perceives to be caused/obtained by engaging in the target behavior.
   source: none
 parent:
-  id: attitude_xl678lqgq
----
-
----
-id: attitude_instrumental_xl678lqgp
-label: Instrumental Attitude
-date: 2018-11-28
-source:
-  label: Reasoned Action Approach
-  id: ISBN
-alters:
-  id: expectancies
+  id: attitude_71vqm37n
 ---
